@@ -1,0 +1,32 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+int main(){
+
+int opcao;
+double n1,n2,adicao,subtrair,multiplicar,dividir;
+  
+  cout<<"\nDigite o primeiro numero";
+  cin>>n1;
+  cout<<"\nDigiter o sengudo nemero ";
+  cin>> n2;
+  cout<<"\nOperacao Adi��o-1 / subtracao-2/ mutiplicacao-3/ divisao-4 ";
+  cin>>opcao;
+  adicao = n1+n2;
+  subtracao = n1-n2;
+  multiplicao = n1*n2;
+  dividir = n1/n2;
+
+if(opcao==1){
+ cout<<"\nSoma "<<adicao;
+}
+if(opcao==2){
+cout<<"\nSubtracao "<<subtracao;
+}
+if(opcao==3){
+	cout<<"\nMutiplicao"<<multiplicao;
+}
+if(opcao==4){
+cout<<"\nDivisao "<<dividir;
+}
+}
