@@ -1,0 +1,40 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+
+int main() {
+	int cargo;
+	double salario,aumento,novosal;
+	
+	cout<<"\nDigite o cargo de funcionario (1,2,3,4,5) ";
+	cin>>cargo;
+	cout<<"\nDigite o valor e salario ";
+	cin>>salario;
+	
+	if(cargo==1){cout<<"\nNo cargo e escrituario ";
+	aumento=salario*50/100;
+	cout<<"\nNo aumneto "<<aumento;
+	novosal=salario+aumento;
+	cout<<"\nO novo salrio e: "<<novosal;}
+	
+	if(cargo==2){cout<<"\nO cargo e secretario";
+	aumento=salario*35/100;
+	cout<<"\nO salario "<<aumento;
+	novosal==salario+aumento;
+	cout<<"\nO novo salrio e: "<<novosal;}
+	
+	if(cargo==3){cout<<"\nO cargo de atenddente";
+	aumento = salario*20/100;
+	cout<<"\nO aumento "<<aumento;
+	novosal=salario+aumento;
+	cout<<"\nO novo salrio e: "<<novosal;}
+	
+	if(cargo==4){cout<<"\nO cargo gerente ";
+	aumento= salario*10/100;
+	cout<<"\no aumento "<<aumento;
+	novosal = salario+aumento;
+	cout<<"\nO novo salario e: "<<novosal;}
+	
+	if(cargo==5){cout<<"\nSem aumento";}
+	
+}
